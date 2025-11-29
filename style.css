@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box; /* Makes managing padding and borders easier */
+    margin: 0;
+    padding: 0;
+}
+
+/* A basic CSS reset for cleaner styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Use Slate 300 for the background: hsl(212, 45%, 89%) */
+    background-color: hsl(212, 45%, 89%); 
+    
+    /* Use the Outfit font family */
+    font-family: 'Outfit', sans-serif;
+    
+    /* Center the card on the page */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+.qr-card {
+    /* Set a reasonable width for the card (e.g., around 320px) */
+    width: 320px; 
+    max-width: 90%; /* Ensures it doesn't break on very small screens */
+    
+    /* Use White for the card background: hsl(0, 0%, 100%) */
+    background-color: hsl(0, 0%, 100%); 
+    
+    padding: 16px; /* Padding inside the card */
+    border-radius: 20px; /* Rounded corners for the card */
+    text-align: center; 
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.04); /* Subtle shadow */
+}
+
+/* Image styling */
+.qr-card img {
+    width: 100%; /* Fill the card width */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 24px;
+}
+
+/* Heading styling */
+.qr-card h1 {
+    /* Use Slate 900 for the heading: hsl(218, 44%, 22%) */
+    color: hsl(218, 44%, 22%); 
+    font-size: 22px; 
+    font-weight: 700; /* Use the bold weight */
+    margin-bottom: 16px;
+    padding: 0 10px; 
+}
+
+/* Paragraph styling */
+.qr-card p {
+    /* The paragraph size is 15px (default for many browsers) */
+    font-size: 15px; 
+    font-weight: 400; /* Use the regular weight */
+    
+    /* Use Slate 500 for the paragraph text: hsl(216, 15%, 48%) */
+    color: hsl(216, 15%, 48%); 
+    
+    margin-bottom: 24px;
+    padding: 0 20px; 
+}
